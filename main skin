@@ -1,0 +1,261 @@
+#header .logo,
+#greeting p.icon {
+  display: none;
+}
+
+#header .primary {
+  box-shadow: none;
+}
+
+#header .heading sup {
+  visibility: hidden;
+}
+
+#header h1.heading a::before {
+  margin-left: 1em;
+  font-weight: bold;
+  content: "Just";
+  color: #FD8996;
+}
+
+#header .heading sup::before {
+  font-family: "Lucida Handwriting", cursive;
+  content: " girly things";
+  color: #b269fb;
+  visibility: visible;
+}
+
+#header h1.heading span {
+  display: none;
+}
+
+#main .icon {
+  display: none;
+}
+
+#main .listbox {
+  background: #fcbcc4;
+  border-color: #fff;
+  box-shadow: none;
+}
+
+#main .listbox .index {
+  box-shadow: none;
+}
+
+#main .reading h4.viewed,
+.comment h4.byline {
+  background: transparent;
+}
+
+#comment li.comment,
+.thread {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.group.listbox,
+fieldset fieldset.listbox,
+#main li.blurb,
+.wrapper,
+#dashboard .secondary,
+.secondary,
+form blockquote.userstuff,
+.thread .comment,
+.toggled form {
+  box-shadow: none;
+  background: transparent;
+}
+
+#header input[type="submit"],
+#dashboard .actions a,
+#dashboard .actions a:visited,
+#dashboard .current,
+#main .actions a,
+#main .actions a:visited,
+#main .action,
+#main .actions input,
+#main input[type="submit"],
+#main button,
+#main .current,
+#main .actions label {
+  background: #fff;
+  color: #000 !important;
+  border-color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.heading {
+  font-family: "Century Gothic", sans-serif;
+  border-bottom: none;
+  font-weight: normal;
+  position: initial;
+}
+
+body,
+input,
+.toggled form,
+.dynamic form,
+.secondary,
+.dropdown,
+button,
+blockquote,
+.filters dt,
+.filters dd,
+.filters input[type="submit"],
+.filters .expander,
+.bookmark .user .meta,
+.datetime,
+a.work,
+span.symbol,
+.splash .news .meta,
+select {
+  font-family: "Century Gothic", sans-serif;
+}
+
+#new_work_search,
+fieldset fieldset.listbox {
+  background: transparent;
+  outline: none;
+  box-shadow: none;
+}
+
+#new_bookmark_search,
+fieldset {
+  background: transparent;
+  outline: none;
+  box-shadow: none;
+}
+
+#new_people_search,
+fieldset {
+  background: transparent;
+  outline: none;
+  box-shadow: none;
+}
+
+#main .verbose fieldset,
+fieldset fieldset.listbox {
+  background: #e9d0f7;
+  outline: none;
+  box-shadow: none;
+}
+
+#main .verbose legend,
+fieldset fieldset.listbox {
+  background: #fff;
+  outline: none;
+  box-shadow: none;
+}
+
+.blurb .datetime {
+  position: initial;
+  text-align: right;
+  margin-top: 5px;
+}
+
+.blurb h4.heading,
+.blurb .header .heading {
+  margin: 0;
+}
+
+.blurb ul.required-tags {
+  position: initial;
+  top: initial;
+  display: none;
+}
+
+.blurb ul.required-tags li + li + li,
+.blurb ul.required-tags li + li + li + li {
+  position: initial;
+  left: initial;
+}
+
+.blurb ul.required-tags li {
+  display: inline-flex;
+}
+
+.blurb ul.tags {
+  background: none;
+  padding: 2px;
+}
+
+li.relationships a,
+.work .relationship a.tag {
+  background: none;
+}
+
+li.blurb .relationships {
+  font-weight: bold;
+}
+
+.warnings .tag,
+.work .warning a.tag {
+  font-weight: normal;
+  color: #62289c;
+}
+
+.relationships .tag,
+.work .relationships a.tag {
+  color: #d62035;
+}
+
+.characters .tag,
+.work .characters a.tag {
+  font-style: italic;
+  color: #62289c;
+}
+
+.freeforms .tag,
+.work .freeforms a.tag {
+  font-style: italic;
+  color: #62289c;
+}
+
+.comment h4.byline {
+  padding: 0.25em;
+}
+
+.abbreviated h4.byline {
+  padding-left: 0.25em;
+}
+
+body,
+#header,
+#header ul.primary {
+  background-image: linear-gradient(to bottom, #b269fb, #FD8996);
+  background-size: contain;
+}
+
+#header .actions a:hover,
+#header .actions a:focus,
+#header .dropdown:hover a,
+#header .open a {
+  background: #fff;
+}
+
+#header,
+#outer.wrapper {
+  background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(252,188,196,1) 31%, rgba(181,127,235,0.4598214285714286) 62%, rgba(255,255,255,1) 100%);
+  background-size: 10000px 10000px;
+  background-repeat: repeat;
+}
+
+#main .unread {
+  background: #f0dcfc;
+}
+
+#dashboard,
+#dashboard.own {
+  border-bottom: 5px solid #fcbcc4;
+  border-top: 5px solid #fcbcc4;
+}
+
+#footer {
+  background-image: linear-gradient(to bottom, #FD8996, #b269fb);
+  background-size: contain;
+}
