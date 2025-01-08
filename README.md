@@ -10,3 +10,10 @@ In order to create a site skin, you need to have an AO3 account and you need to 
     Copy the code you like and paste it into the CSS box.
     After you have pasted all of the bits of code that you want to include, scroll to the bottom of the page and tap on the button labelled Submit. This will save your site skin and take you to a new page where you can see the title of your skin as well as all of the code.
     On the site skin page, tap on the button labelled Use. You will now have this skin every time you're logged in on any device.
+
+RECOMMENDATION 
+
+Pair this site skin with ZerafinaCSS's Replace the AO3 Icons 2.0 (reversi version)
+You can find that code here: https://github.com/ZerafinaCSS/Replace-the-AO3-Icons-2.0/blob/main/Replace_AO3_icons_2.0_blue-berry.css
+
+To add it to this skin, either copy that code and paste it at the end of mine or create a site skin that contains that code and add it to mine as a parent. 
