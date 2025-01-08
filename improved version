@@ -1,0 +1,426 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.heading {
+  font-family: "Century Gothic", sans-serif;
+  border-bottom: none;
+  font-weight: normal;
+  position: initial;
+  color: #FD8996;
+}
+
+body,
+input,
+.toggled form,
+.dynamic form,
+.secondary,
+.dropdown,
+button,
+blockquote,
+.filters dt,
+.filters dd,
+.filters input[type="submit"],
+.filters .expander,
+.bookmark .user .meta,
+.datetime,
+a.work,
+span.symbol,
+.splash .news .meta,
+select {
+  font-family: "Century Gothic", sans-serif;
+}
+
+#header input[type="submit"],
+#main .actions a,
+#main .actions a:visited,
+#main .action,
+#main .actions input,
+#main input[type="submit"],
+#main .current,
+#main .actions label,
+form.button_to button {
+  border: 1px solid #b269fb !important;
+  box-shadow: none;
+  background: #fff;
+}
+
+#header input[type="submit"]:hover,
+#header input[type="submit"]:focus,
+#dashboard .actions a:hover,
+#dashboard .actions a:focus,
+#dashboard .current,
+#main .actions a:hover,
+#main input[type="submit"]:hover,
+#main button:hover .actions label:hover,
+#main .action:hover,
+#main .current,
+form.button_to button:hover {
+  background: #e9d0f7 !important;
+  color: #fff;
+  box-shadow: none;
+}
+
+#header ul.primary,
+#header h2 {
+  background-image: linear-gradient(to right, #fab0b9, #ce9ffd) !important;
+  background-size: contain;
+  box-shadow: none;
+}
+
+#header .logo,
+#greeting p.icon {
+  display: none;
+}
+
+#header .heading sup {
+  visibility: hidden;
+}
+
+#header h1.heading a::before {
+  margin-left: 1em;
+  font-weight: bold;
+  content: "Just";
+  color: #fd8996;
+}
+
+#header .heading sup::before {
+  font-family: "Lucida Handwriting", cursive;
+  content: " girly things";
+  color: #b269fb;
+  visibility: visible;
+}
+
+#header .menu {
+  background: #fff;
+  box-shadow: 2px 2px #ce9ffd;
+}
+
+#header .menu li {
+  border-bottom: none;
+}
+
+#header .dropdown:hover a.dropdown-toggle,
+#header .actions a:hover {
+  background: #fff !important;
+  color: #ce9ffd !important;
+}
+
+#header h1.heading span {
+  display: none;
+}
+
+#header #search .text {
+  background: #fff;
+}
+
+.search [role="tooltip"] {
+  background: #e9d0f7;
+}
+
+.splash .module h3,
+.splash .module h3 a,
+div.header.module h4 a,
+div.header.module p.meta a,
+.splash .jump a {
+  color: #fd8996;
+  border-bottom: 1px solid #fd8996;
+}
+
+div.header.module p.meta,
+.splash .module h3 a:visited,
+div.header.module h4 a:visited,
+div.header.module p.meta a:visited,
+.splash .jump a:visited {
+  color: #b269fb;
+}
+
+.splash .favorite a {
+  color: #b269fb;
+}
+
+.splash .favorite li:nth-of-type(odd) a {
+  background: #e5cffa;
+  color: #b269fb;
+}
+
+.splash .favorite a:hover,
+.splash .favorite li:nth-of-type(odd) a:hover {
+  background: #f7cff2;
+  color: #fff;
+}
+
+.preface h3 {
+  font-weight: bold;
+}
+
+.group.listbox,
+fieldset,
+fieldset fieldset.listbox,
+#main li.blurb,
+.wrapper,
+#dashboard .secondary,
+.secondary,
+form blockquote.userstuff,
+.thread .comment,
+.toggled form {
+  box-shadow: none;
+  background: transparent;
+}
+
+#main .verbose fieldset,
+fieldset,
+fieldset fieldset.listbox {
+  background: #e9d0f7;
+  outline: none;
+  box-shadow: none;
+}
+
+#main .verbose legend,
+fieldset fieldset.listbox {
+  background: #fff;
+  outline: none;
+  box-shadow: none;
+}
+
+#main li.blurb {
+  border: 3px solid #fff;
+}
+
+#main li.blurb {
+  background: rgba(255,255,255,0.3);
+}
+
+.statistics .index li:nth-of-type(2n) {
+  background: #fbe4f8;
+}
+
+.resp-sharing-button--twitter {
+  background: #ce9ffd !important;
+}
+
+.resp-sharing-button--tumblr {
+  background: #fab0b9 !important;
+}
+
+#outer.wrapper {
+  background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(252,188,196,1) 31%, rgba(181,127,235,0.4598214285714286) 62%, rgba(255,255,255,1) 100%);
+  background-size: 10000px 10000px;
+  background-repeat: repeat;
+}
+
+.notice,
+.comment_notice,
+.kudos_notice,
+ul.notes,
+.caution,
+.error,
+.comment_error,
+.kudos_error,
+.alert.flash {
+  background: #FD8996;
+  color: #fff;
+  border: 1px solid #f7cff2;
+  box-shadow: 3px 3px #fbced3;
+}
+
+a.tag,
+a.tag:visited,
+a.tag:link {
+  display: inline-block;
+  padding: 2px 5px;
+  margin: 2px 0px;
+  border-radius: 5px;
+}
+
+.commas li:after {
+  content: "";
+}
+
+h5.fandoms.heading a.tag,
+a.tag:link {
+  color: #4c2673;
+  border: 1px solid #ce9ffd;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.favorite a.tag {
+  border: none;
+}
+
+.tags li.warnings a.tag {
+  background: #fd8996;
+  border: 1px solid #fd8996;
+}
+
+.tags li.relationships a.tag {
+  background-color: #fbced3;
+  border: 1px solid #fd8996;
+}
+
+.tags li.characters a.tag {
+  background-color: #e9d0f7;
+  border: 1px solid #b269fb;
+}
+
+.tags li.freeforms a.tag {
+  background-color: #f5ebfa;
+  border: 1px solid #b269fb;
+}
+
+.tags li.freeforms a.tag:hover,
+.tags li.characters a.tag:hover,
+h5.fandoms.heading a.tag:hover,
+a.tag:link:hover {
+  background: #fff;
+  color: #b269fb;
+  border: 1px solid #b269fb;
+}
+
+.tags li.relationships a.tag:hover,
+.tags li.warnings a.tag:hover {
+  background-color: #fff;
+  color: #fd8996;
+  border: 1px solid #fd8996;
+}
+
+h2.heading a.tag,
+.group.listbox ol.index.group a.tag {
+  border: none;
+}
+
+.group.listbox h3.heading,
+.group.listbox h3.heading a {
+  color: #fff;
+}
+
+.group.listbox {
+  background-image: linear-gradient(to right, #fab0b9, #ce9ffd) !important;
+  background-size: contain;
+  border: 2px solid #b269fb;
+  box-shadow: none;
+}
+
+.listbox .index {
+  box-shadow: none;
+}
+
+#dashboard.own {
+  border-top: 15px solid #fab0b9;
+  border-bottom: 15px solid #ce9ffd;
+  opacity: 1.0;
+  border-radius: 0.25em;
+}
+
+div#add_comment fieldset h4.heading {
+  color: #fff;
+}
+
+.comment fieldset {
+  border: 2px solid #b269fb;
+  box-shadow: none;
+}
+
+.thread .comment h4.byline,
+li.comment h4.heading.byline {
+  background: #fff;
+  color: #b269fb;
+  border: 2px solid #fff;
+}
+
+.thread .comment h4.byline a,
+li.comment h4.heading.byline a {
+  color: #b269fb;
+}
+
+.thread .comment {
+  background: #e9d0f7;
+  border: 2px solid #fff;
+}
+
+.thread .even {
+  background: #fbe4f8;
+  border: 2px solid #fff;
+}
+
+li.comment {
+  border: 2px solid #fff;
+}
+
+.replied {
+  background: #fff;
+  border: 2px solid #b269fb;
+  color: #b269fb;
+}
+
+.unread {
+  background: #fff;
+  border: 2px solid #b269fb !important;
+}
+
+span.unread {
+  background: #b269fb;
+  color: #fff;
+}
+
+.comment div.icon {
+  border-bottom: 5px solid #b269fb;
+}
+
+.reading h4.viewed {
+  padding: 2px;
+  background: #fff;
+  border: 2px solid #b269fb;
+}
+
+dl.index dd,
+.child {
+  background: transparent;
+}
+
+#stat_chart svg rect:first-of-type {
+  opacity: 70%;
+}
+
+#stat_chart g[clip-path^=url] > g:nth-of-type(2) rect,
+#stat_chart svg g:nth-of-type(2) > g rect:last-of-type,
+#stat_chart g[clip-path^=url] > g:nth-of-type(2) rect:first-of-type {
+  filter: hue-rotate(300deg);
+  opacity: 90% !important;
+}
+
+#stat_chart svg text {
+  font-family: "Century Gothic", Arial, sans-serif;
+}
+
+#stat_chart g[clip-path^=url] > g:nth-of-type(2) rect:hover {
+  filter: hue-rotate(117deg);
+}
+
+#footer {
+  background-image: linear-gradient(to bottom, #f7cff2, #e9d0f7);
+  background-size: contain;
+  border-top: 3px solid #b269fb;
+}
+
+#footer a,
+#footer h4.heading,
+#footer {
+  color: #000;
+}
+
+#footer a:hover {
+  font-weight: bold;
+}
+
+::selection {
+  background: #fd8996;
+  color: #fff;
+}
+
+p.muted.notice {
+  display: none;
+}
